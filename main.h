@@ -30,8 +30,8 @@ typedef struct fla
 
 typedef struct don
 {
-        char sy;
-        int (*f)(va_list l, fla_t *fl);
+	char sy;
+	int (*f)(va_list l, fla_t *fl);
 } don;
 /*don_t - typedef */
 typedef struct don don_t;
